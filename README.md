@@ -47,3 +47,14 @@ The Note-Taking Application includes the following features:
 ## Contributions
 Contributions to the Note-Taking Application are welcome. If you would like to contribute, please fork the repository and submit a pull request.
 
+## License 
+
+![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)
+
+## Deployed Project Link
+
+![My Personal Notepad - Deployed Link]()
+
+## Contact
+
+If you have any questions or comments about My Personal Notepad, please contact Jadyn G. at jadyngg19@gmail.com.
