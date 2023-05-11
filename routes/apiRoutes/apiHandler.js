@@ -1,38 +1,35 @@
 const fs = require("fs");
 const path = require("path");
 
-
-function createNewNote(body, notesArray) {
+function createNewNote(body, noteSet) {
     const note = body;
-    notesArray.push(note);
+    noteSet.push(note);
 
     fs.writeFileSync(
         path.join(__dirname, '../db/db.json'),
         JSON.stringify({
-            notes: notesArray
+            notes: noteSet
         }, null, 2)
     )
-
     return note;
 }
 
-function deleteNote(notesArray, id) {
+function deleteNote(noteSet, id) {
     let deleteID = parseInt(id);
-    notesArray.splice(deleteID, 1);
+    noteSet.splice(deleteID, 1);
 
     // This loop re-writes the indexes for the remaining notes.
-    for (let i = deleteID; i < notesArray.length; i++) {
-        notesArray[i].id = i.toString();
+    for (let i = deleteID; i < noteSet.length; i++) {
+        noteSet[i].id = i.toString();
     }
 
     fs.writeFileSync(
         path.join(__dirname, '../db/db.json'),
         JSON.stringify({
-            notes: notesArray
+            notes: noteSet
         }, null, 2)
     )
 }
-
 
 module.exports = {
     createNewNote,
