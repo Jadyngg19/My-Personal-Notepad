@@ -21,7 +21,6 @@ The Note-Taking Application is built using the following technologies:
 
 ## Usage
 To use the Note-Taking Application, follow these steps:
-s
 1. Navigate to https://my-personal-notepad.herokuapp.com/ in your web browser.
 2. You will be presented with a landing page with a link to the notes page.
 3. Click on the link to the notes page.
