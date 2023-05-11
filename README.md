@@ -10,7 +10,7 @@ To install and use the Note-Taking Application, follow these steps:
 2. Install Node.js and npm (Node Package Manager) on your machine.
 3. Open a terminal in the project directory and run the command npm  install to install the required dependencies.
 4. Run the command npm start to start the application.
-5. Open your web browser and navigate to http://localhost:3001 to access the application.
+5. Open your web browser and navigate to http://localhost:8080 to access the application.
 
 ## Building Blocks
 The Note-Taking Application is built using the following technologies:
@@ -21,8 +21,7 @@ The Note-Taking Application is built using the following technologies:
 
 ## Usage
 To use the Note-Taking Application, follow these steps:
-s
-1. Open the application in your web browser.
+1. Navigate to https://my-personal-notepad.herokuapp.com/ in your web browser.
 2. You will be presented with a landing page with a link to the notes page.
 3. Click on the link to the notes page.
 4. You will be presented with a page with existing notes listed in the left-hand column, plus empty fields to enter a new note title and the note's text in the right-hand column.
