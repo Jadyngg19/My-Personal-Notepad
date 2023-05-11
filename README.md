@@ -32,10 +32,10 @@ To use the Note-Taking Application, follow these steps:
 9. Click on an existing note in the list in the left-hand column to view it in the right-hand column.
 10. Click on the Write icon in the navigation at the top of the page to create a new note.
 
-[Note Taker Landing Page](./Images/Note-Taker%20Landing%20Page.png)
-[Note Taking Page](./Images/Note%20Taking%20Page.png)
-[Test Note](./Images/Test%20Note.png)
-[Demonstrating that the Test Note saved](./Images/Showing%20the%20Test%20Note%20saved.png)
+![Note Taker Landing Page](./Images/Note-Taker%20Landing%20Page.png)
+![Note Taking Page](./Images/Note%20Taking%20Page.png)
+![Test Note](./Images/Test%20Note.png)
+![Demonstrating that the Test Note saved](./Images/Showing%20the%20Test%20Note%20saved.png)
 
 ## Features
 The Note-Taking Application includes the following features:
