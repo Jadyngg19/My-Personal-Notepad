@@ -57,7 +57,7 @@ Contributions to the Note-Taking Application are welcome. If you would like to c
 
 ## Deployed Project Link
 
-![My Personal Notepad - Deployed Link](https://my-personal-notepad.herokuapp.com/)
+[My Personal Notepad - Deployed Link](https://my-personal-notepad.herokuapp.com/)
 
 ## Contact
 
